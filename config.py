@@ -14,3 +14,4 @@ class Config(object):
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     ADMINS = ['szong@bcgsc.ca']
     POSTS_PER_PAGE = 5
+    LOG_TO_STDOUT = os.environ.get('LOG_TO_STDOUT')
